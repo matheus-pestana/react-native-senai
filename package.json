@@ -2,12 +2,13 @@
   "name": "aulanavigation",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  
+  "homepage": "https://matheus-pestana.github.io/projeto-react-native/",
   "scripts": {
-    "homepage": "https://matheus-pestana.github.io/projeto-react-native/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "expo start",
-    "build": "react-scripts build",
+    "build": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
