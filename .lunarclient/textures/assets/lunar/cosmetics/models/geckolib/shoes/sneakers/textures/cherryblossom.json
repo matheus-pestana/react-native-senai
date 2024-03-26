@@ -1,0 +1,30 @@
+{
+	"type": "backpack",
+	"attached_bone": "NONE",
+	"show_during_emote": false,
+	"model": "lunar:cosmetics/models/geckolib/shoes/sneakers/sneakers.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/shoes/sneakers/textures/cherryblossom.webp",
+	"animation": "lunar:cosmetics/models/geckolib/shoes/sneakers/sneakers.animation.json",
+	"state_machine":{
+		"name": "single",
+		"transition_tick_length": 10,
+		"anim": "animation"
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.5,
+					"y": 2.2,
+					"z": -0.45
+				},
+				"player": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

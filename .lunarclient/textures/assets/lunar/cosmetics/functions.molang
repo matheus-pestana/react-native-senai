@@ -1,0 +1,44 @@
+lunar.cos(a.wavelength,a.amplitude,a.delay):
+   return math.cos(a.delay+query.life_time*a.wavelength)*a.amplitude;
+
+lunar.sin(a.wavelength,a.amplitude,a.delay):
+   return math.sin(a.delay+query.life_time*a.wavelength)*a.amplitude;
+
+lunar.swim_x_stabilize():
+   return query.is_swimming*-90;
+
+lunar.is_jumping():
+   return (query.y_velocity >3)?1:0;
+
+lunar.check_for_groundspeed(a.threshold):
+   return (q.ground_speed_smoothed>=a.threshold)? 1:0;
+
+lunar.adapt_freq(a.delay,a.wavelength):
+   return math.sin(a.delay+a.wavelength*query.life_time-math.sin(q.ground_speed_smoothed));
+
+lunar.adapt_ampl(a.max_ground_speed_value,a.amplitude):
+   return math.min(q.ground_speed_smoothed,a.max_ground_speed_value)*a.amplitude;
+
+lunar.speed_adapt_sin(a.delay,a.wavelength,a.max_ground_speed_value,a.amplitude):
+   return (lunar.adapt_freq(a.delay,a.wavelength))*(lunar.adapt_ampl(a.max_ground_speed_value,a.amplitude));
+
+lunar.sinw(a.frq,a.amp):
+   return math.sin(q.life_time*a.frq)*a.amp;
+
+lunar.cosw(a.frq,a.amp):
+   return math.cos(q.life_time*a.frq)*a.amp;
+
+lunar.movewave_sin(a.freq,a.amp,a.offset):
+   return math.sin(c.distance_moved * a.freq + a.offset) * c.normalized_ground_speed * a.amp;
+
+lunar.movewave_cos(a.freq,a.amp,a.offset):
+   return math.cos(c.distance_moved * a.freq + a.offset) * c.normalized_ground_speed * a.amp;
+
+lunar.movewave(a.freq,a.amp,a.offset):
+   return math.cos(c.distance_moved * a.freq + a.offset) * 20 * c.normalized_ground_speed * a.amp;
+
+lunar.speed_vibration(a.mag):
+   return math.random(c.movement_speed_smoothed * -a.mag, c.movement_speed_smoothed * a.mag);
+
+lunar.sigmoid(a.val,a.range,a.coef):
+   return (a.range * 2) / (1 + math.pow(a.coef, -a.val)) - a.range;

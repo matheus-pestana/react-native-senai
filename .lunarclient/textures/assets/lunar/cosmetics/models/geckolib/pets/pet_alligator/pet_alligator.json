@@ -1,0 +1,55 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/pet_alligator/pet_alligator.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/pet_alligator/pet_alligator.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/pet_alligator/pet_alligator.anim.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_crouching && !q.is_elytra_flying && !q.is_swimming && !q.is_in_water && !q.is_flying",
+						"transition_easing": "easeOutSine"
+					},
+					{
+						"anim": "flying",
+						"plays_when": "q.is_flying",
+						"transition_easing": "easeOutSine"
+					},
+					{
+						"anim": "in_water_surface",
+						"plays_when": "q.distance_from_surface<3 && q.is_in_water && !q.is_swimming & !q.is_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "is_swimming",
+						"plays_when": "q.is_swimming",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "in_water_deep",
+						"plays_when": "q.distance_from_surface>=3 && q.is_in_water && !q.is_swimming",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.5,
+					"y": 0.35,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,4014 @@
+{
+  "hats": {
+    "panda": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 1.6,
+        "z": -0.0
+      }
+    ],
+    "frog": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 1.6,
+        "z": -0.0
+      }
+    ],
+    "pig": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 1.6,
+        "z": -0.0
+      }
+    ],
+    "koala": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 2.4,
+        "z": -0.0
+      }
+    ],
+    "lion": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 2.16,
+        "z": -0.0
+      }
+    ],
+    "penguin": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 2.0,
+        "z": -0.76
+      },
+      {
+        "transform": "scale",
+        "x": 1.035,
+        "y": 1.035,
+        "z": 1.035
+      }
+    ],
+    "bandanna": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "fox": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": -0.0
+      }
+    ],
+    "dog": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.24
+      },
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      }
+    ],
+    "bunnyears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.52,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.0245,
+        "y": 1.0245,
+        "z": 1.0245
+      }
+    ],
+    "mask": [
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 270.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -2.0,
+        "z": 0.0
+      }
+    ],
+    "dragon": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.2,
+        "z": 0.96
+      }
+    ],
+    "halloween_mask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    ],
+    "pumpkin": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.8,
+        "z": 0.0
+      }
+    ],
+    "witch": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.76,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      }
+    ],
+    "devil_horns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "black_devil_horns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "spider": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "top_hat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.76,
+        "z": 0.0
+      }
+    ],
+    "knife": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.68,
+        "z": 0.0
+      }
+    ],
+    "paperbag": [
+      {
+        "transform": "scale",
+        "x": 1.15,
+        "y": 1.15,
+        "z": 1.15
+      },
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      }
+    ],
+    "chef": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.8,
+        "z": 0.0
+      }
+    ],
+    "legomaestro": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "enderman": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "cowboy": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.15,
+        "y": 1.15,
+        "z": 1.15
+      }
+    ],
+    "crown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "wolf": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "sombrero": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.935,
+        "y": 0.935,
+        "z": 0.935
+      }
+    ],
+    "pilgrim": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.76,
+        "z": 0.0
+      }
+    ],
+    "antlers": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "beard": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "bee": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "elf": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "ghast": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "kitten": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "santa": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "chimney": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "xmaslights": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      }
+    ],
+    "nutcracker": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "top_hat_newyears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "halo": [
+      {
+        "transform": "rotate",
+        "angle": 270.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -9.6,
+        "z": 0.0
+      }
+    ],
+    "cat_ears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      }
+    ],
+    "gaming_headset": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 2.4
+      },
+      {
+        "transform": "scale",
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      }
+    ],
+    "cat_ear_headset": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -3.2,
+        "z": 0.0
+      }
+    ],
+    "heartband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "cute_cat_ears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.744,
+        "z": 1.6
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "tophats": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.76,
+        "z": 0.0
+      }
+    ],
+    "beard_stpatrick": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 2.0,
+        "z": 3.2
+      }
+    ],
+    "potofgold": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "cloverheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "lunarbunnyears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.48,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.925,
+        "y": 0.925,
+        "z": 0.925
+      }
+    ],
+    "bunnyhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "pirate": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.98,
+        "y": 0.98,
+        "z": 0.98
+      }
+    ],
+    "rose_crown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -3.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.05,
+        "y": 1.05,
+        "z": 1.05
+      }
+    ],
+    "graduation": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "lunarcrown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "astronauthelmet": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 0.0
+      }
+    ],
+    "browndogears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -10.4,
+        "z": 0.8
+      }
+    ],
+    "newdragon": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -1.6,
+        "z": 0.0
+      }
+    ],
+    "footballhelmet": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.64,
+        "z": 0.0
+      }
+    ],
+    "mushroom": [
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.55,
+        "y": 0.55,
+        "z": 0.55
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 17.6,
+        "z": 0.0
+      }
+    ],
+    "buckethat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.2,
+        "z": 0.0
+      }
+    ],
+    "4thofjulyheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "axolotl_mask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "axolotl_hat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -9.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "lion_mask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.72,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    ],
+    "pinkrosecrown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -3.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.05,
+        "y": 1.05,
+        "z": 1.05
+      }
+    ],
+    "cowboyhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "pirate_hat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 0.0
+      }
+    ],
+    "strawhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.4,
+        "z": 0.0
+      }
+    ],
+    "lunarbunnyears_pink": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.48,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.925,
+        "y": 0.925,
+        "z": 0.925
+      }
+    ],
+    "boomerfrog": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      }
+    ],
+    "facebandanna": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -1.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.9525,
+        "y": 0.9525,
+        "z": 0.9525
+      }
+    ],
+    "ramhorns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    ],
+    "cleaver": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "bolts": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      }
+    ],
+    "arrowinhead": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.0,
+        "z": 0.0
+      }
+    ],
+    "gasmask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.4,
+        "z": 0.204
+      }
+    ],
+    "jasonmask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    ],
+    "curvedhorns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "fronthorns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -7.2,
+        "z": 4.8
+      }
+    ],
+    "pumpkin_creeper": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "pumpkin_smile": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "pumpkin_happy": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "pumpkin_sad": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "pumpkin_evil": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "turkeyheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.64,
+        "z": 0.0
+      }
+    ],
+    "turkeylegband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "turkeyhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "batears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "top_hat_gift": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -9.04,
+        "z": 0.0
+      }
+    ],
+    "cowboyhat_xmas": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "presentwrapper": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.24,
+        "z": 0.0
+      }
+    ],
+    "rudolph_nose": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": 0.08,
+        "y": -3.2,
+        "z": -0.12
+      }
+    ],
+    "xmaslightsheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.4,
+        "z": 0.0
+      }
+    ],
+    "elfears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.935,
+        "y": 0.935,
+        "z": 0.935
+      }
+    ],
+    "elfhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.56,
+        "z": 0.0
+      }
+    ],
+    "champagneheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      }
+    ],
+    "2022headband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -8.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "2022crown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "xoxoheadband": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "heartarrow": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "heartbow": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 25.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.64,
+        "z": 4.8
+      },
+      {
+        "transform": "scale",
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      }
+    ],
+    "cowboyhat_valentines": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "zyphhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.6,
+        "z": 0.0
+      }
+    ],
+    "top_hat_clover": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -5.2,
+        "z": 0.0
+      }
+    ],
+    "bunnymask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.8,
+        "z": 4.48
+      }
+    ],
+    "bunnyears2022": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -12.0,
+        "z": 1.2
+      }
+    ],
+    "strawhat2022": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 26.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.05,
+        "y": 1.05,
+        "z": 1.05
+      }
+    ],
+    "featherhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 28.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      }
+    ],
+    "snorkel": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "sunglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "eyepatch": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "snowgoggles": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "heartglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "regularmagehat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "dealwithitglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "3dglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "piratehat2022": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "forrestseal": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 23.984,
+        "z": 0.0
+      }
+    ],
+    "romanhelmet": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -4.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.95,
+        "y": 0.95,
+        "z": 0.95
+      }
+    ],
+    "vikinghelmet": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -6.0,
+        "z": 0.0
+      }
+    ],
+    "knighthelmet": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "pixel_devil_horns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_ears_pointy": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "square_ears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "pixel_ram_horns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -1.6
+      },
+      {
+        "transform": "scale",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    ],
+    "pixel_small_horns": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "school_brown_sunglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "samuraimask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      }
+    ],
+    "samuraihat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      }
+    ],
+    "snapback": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 23.6,
+        "z": 0.0
+      }
+    ],
+    "batglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "catglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "frankenstien": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "poppingeye": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "golemhat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 23.6,
+        "z": 0.0
+      }
+    ],
+    "blushisnowflakecrown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.6,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.05,
+        "y": 1.05,
+        "z": 1.05
+      }
+    ],
+    "turkeylegglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "turkeyglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "beaniehat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 23.2,
+        "z": 0.0
+      }
+    ],
+    "christmastophat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 23.2,
+        "z": 0.0
+      }
+    ],
+    "xmasglass": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "lunar_bucket_hat_v2": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 22.8,
+        "z": 0.0
+      }
+    ],
+    "lunar_heart_crown": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.4,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.05,
+        "y": 1.05,
+        "z": 1.05
+      }
+    ],
+    "krtzyybeanie": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "leprechaun_hat": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.001,
+        "y": 1.001,
+        "z": 1.001
+      }
+    ],
+    "lunar_oni_mask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_kitsune_mask": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_easter_bunny_ears": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 21.68,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.925,
+        "y": 0.925,
+        "z": 0.925
+      }
+    ],
+    "lunar_bunny_snout": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.4,
+        "z": 0.0
+      }
+    ]
+  },
+  "bodywear": {
+    "tie": [
+      {
+        "transform": "translate",
+        "x": 2.4,
+        "y": 0.0,
+        "z": -0.0
+      }
+    ],
+    "bowtie": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 2.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "backpack1": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 3.44,
+        "z": 5.6
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "buckle_backpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 3.6,
+        "z": 5.52
+      },
+      {
+        "transform": "scale",
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "jetpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.4,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "candycanebackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.24,
+        "z": 4.64
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "gingerbreadbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.24,
+        "z": 4.64
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "candycanenecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "santabag": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 7.6,
+        "z": 5.2
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "giftnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "heartnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "xmaslightsnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 2.0,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "stocking": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 5.6,
+        "z": 4.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "clocktower": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.0,
+        "z": 4.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "champagnenecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "2022necklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "heartbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 5.6,
+        "z": 2.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lovelocket": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "solidheartnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "small_backpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.24,
+        "z": 4.64
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "horseshoenecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "clovernecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.4,
+        "z": -2.4
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "potofgoldbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 6.0,
+        "z": 5.6
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "champsbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": -26.4,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    ],
+    "duckfloatie": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 26.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.975,
+        "y": 0.975,
+        "z": 0.975
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "flamingofloatie": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 26.8,
+        "z": -0.0
+      },
+      {
+        "transform": "scale",
+        "x": 0.975,
+        "y": 0.975,
+        "z": 0.975
+      }
+    ],
+    "lcbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "wrestlingbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 26.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "diamondbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "moonbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "leinecklace": [
+      {
+        "transform": "translate",
+        "x": 0.32,
+        "y": 24.0,
+        "z": -0.0
+      }
+    ],
+    "sharktooth": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "shellnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lcnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "pickaxenecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "swordnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "jetpack2022": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "sword_backpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "doublesword": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "sheathedsword": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "doublesheathedsword": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.24
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "swordandbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "astronautbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "cutlassbackpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 26.64,
+        "z": 0.16
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "karatebelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "fireworknecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.24,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "fireworkbag": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 7.6,
+        "z": 5.2
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "shield": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "circularshield": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "cubanchain": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 1.08,
+        "z": -2.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      }
+    ],
+    "lunarchain": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "bitcoinchain": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "dollarchain": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "whistle": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "jetpackplus": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "school_brown_backpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "skateboard": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.56
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "stype": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": 0
+      },
+      {
+        "transform": "scale",
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 1.6,
+        "z": 0
+      }
+    ],
+    "tail": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "catglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "batglasses": [
+      {
+        "transform": "rotate",
+        "angle": 90.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 25.2,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.01,
+        "y": 1.01,
+        "z": 1.01
+      }
+    ],
+    "katanasheathed": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "pitchfork": [
+      {
+        "transform": "translate",
+        "x": -1.6,
+        "y": 20.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "broom": [
+      {
+        "transform": "translate",
+        "x": -1.6,
+        "y": 20.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "scythe": [
+      {
+        "transform": "translate",
+        "x": -1.6,
+        "y": 20.8,
+        "z": 0.0
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "skull": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "pumpkinbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "ghostbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "golem_necklace": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": -0.16,
+        "z": -2.08
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "xmasnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "giftboxnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "candyneckclace": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "scarf": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": 24.016,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_quiver": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_teddy_backpack": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_rose_neckalce": [
+      {
+        "transform": "translate",
+        "x": 0.128,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ],
+    "phoodu_bunny": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lcleprechaunnecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lcrainbowbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": 0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lcrainbownecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lcgoldbelt": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.8,
+        "z": -0.0
+      },
+      {
+        "transform": "scale",
+        "x": 1.005,
+        "y": 1.005,
+        "z": 1.005
+      }
+    ],
+    "toriigatenecklace": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_bunny_tail": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_katana_sheathed": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_katana": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_em_fox_tail": [
+      {
+        "transform": "translate",
+        "x": -0.0,
+        "y": 24.0,
+        "z": 0.16
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    ],
+    "lunar_kimono_obi": [
+      {
+        "transform": "translate",
+        "x": 0.0,
+        "y": 24.0,
+        "z": -0.32
+      },
+      {
+        "transform": "rotate",
+        "angle": 180.0,
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0
+      }
+    ]
+  }
+}

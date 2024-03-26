@@ -1,0 +1,59 @@
+[2023-01-03 18:57:13.821] [info]  Starting IPC server.
+[2023-01-03 18:57:13.829] [info]  Started IPC server.
+[2023-01-03 18:57:13.909] [info]  (autoUpdater) Checking for update
+[2023-01-03 18:57:14.017] [info]  (autoUpdater) Generated new staging user ID: 0e299d07-404b-5317-9e8f-27022fe0ed9c
+[2023-01-03 18:57:14.101] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-03 19:02:02.789] [info]                Opening window.
+[2023-01-03 19:02:03.173] [info]                Showing window
+[2023-01-03 19:02:21.026] [info]                Opening window.
+[2023-01-03 19:02:21.287] [info]                Showing window
+[2023-01-04 01:01:39.742] [info]  Starting IPC server.
+[2023-01-04 01:01:39.747] [info]  Started IPC server.
+[2023-01-04 01:01:39.819] [info]  (autoUpdater) Checking for update
+[2023-01-04 01:01:40.017] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-04 15:41:11.416] [info]  Starting IPC server.
+[2023-01-04 15:41:11.423] [info]  Started IPC server.
+[2023-01-04 15:41:11.563] [info]  (autoUpdater) Checking for update
+[2023-01-04 15:41:11.864] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-04 16:01:32.527] [info]  Starting IPC server.
+[2023-01-04 16:01:32.531] [info]  Started IPC server.
+[2023-01-04 16:01:32.613] [info]  (autoUpdater) Checking for update
+[2023-01-04 16:01:32.806] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-04 18:05:02.669] [info]  Starting IPC server.
+[2023-01-04 18:05:02.674] [info]  Started IPC server.
+[2023-01-04 18:05:02.751] [info]  (autoUpdater) Checking for update
+[2023-01-04 18:05:03.103] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-05 14:51:12.989] [info]  Starting IPC server.
+[2023-01-05 14:51:12.995] [info]  Started IPC server.
+[2023-01-05 14:51:13.085] [info]  (autoUpdater) Checking for update
+[2023-01-05 14:51:13.351] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-06 16:37:20.261] [info]  Starting IPC server.
+[2023-01-06 16:37:20.265] [info]  Started IPC server.
+[2023-01-06 16:37:20.381] [info]  (autoUpdater) Checking for update
+[2023-01-06 16:37:20.629] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-06 16:40:19.636] [info]  Starting IPC server.
+[2023-01-06 16:40:19.643] [info]  Started IPC server.
+[2023-01-06 16:40:19.718] [info]  (autoUpdater) Checking for update
+[2023-01-06 16:40:20.002] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-06 19:06:44.616] [info]  Starting IPC server.
+[2023-01-06 19:06:44.621] [info]  Started IPC server.
+[2023-01-06 19:06:44.705] [info]  (autoUpdater) Checking for update
+[2023-01-06 19:06:44.951] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-01-08 00:02:16.905] [info]  Starting IPC server.
+[2023-01-08 00:02:16.910] [info]  Started IPC server.
+[2023-01-08 00:02:16.995] [info]  (autoUpdater) Checking for update
+[2023-01-08 00:02:17.241] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-06-23 20:59:32.187] [info]  Starting IPC server.
+[2023-06-23 20:59:32.196] [info]  Started IPC server.
+[2023-06-23 20:59:32.316] [info]  (autoUpdater) Checking for update
+[2023-06-23 20:59:32.618] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-06-23 21:01:33.765] [info]  Starting IPC server.
+[2023-06-23 21:01:33.769] [info]  Started IPC server.
+[2023-06-23 21:01:33.842] [info]  (autoUpdater) Checking for update
+[2023-06-23 21:01:34.032] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).
+[2023-06-23 21:04:48.863] [info]                Opening window.
+[2023-06-23 21:04:49.593] [info]                Showing window
+[2023-06-23 21:09:04.697] [warn]  Failed to start IPC server: Port not available.
+[2023-06-23 21:09:04.701] [warn]  Will try again in 30 seconds.
+[2023-06-23 21:09:04.767] [info]  (autoUpdater) Checking for update
+[2023-06-23 21:09:04.978] [info]  (autoUpdater) Update for version 2.15.1 is not available (latest version: 2.15.1, downgrade is disallowed).

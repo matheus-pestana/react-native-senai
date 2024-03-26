@@ -1,0 +1,22 @@
+{
+   "type":"pet",
+   "attached_bone": "SHOULDER",
+   "model":"lunar:cosmetics/models/geckolib/pets/shoulder_butterfly/shoulder_butterfly.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/pets/shoulder_butterfly/shoulder_butterfly.webp",
+   "animation":"lunar:cosmetics/models/geckolib/pets/shoulder_butterfly/shoulder_butterfly.anim.json",
+   "state_machine": {
+      "name": "layered",
+      "anims": ["main", "flavor"]
+    },
+    "transformations": [{
+      "transformType": "translate",
+      "values": {
+        "gui": {
+          "x": -0.4,
+          "y": 0.15,
+          "z": 0.0
+        }
+      }
+    }
+  ]
+}

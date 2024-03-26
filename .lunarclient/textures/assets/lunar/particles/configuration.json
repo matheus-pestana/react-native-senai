@@ -1,0 +1,1001 @@
+{
+	"avatar_air": {
+		"title": "Air",
+		"description": "Avatar: Air bending",
+		"morphs": [
+			{
+			    "morph": "{Scheme:\"avatar_air1\",Name:\"snowstorm\"}",
+			    "bone": "anchor",
+			    "start": 30,
+			    "length": 15,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "translate": [0.0, 0.5, 0.25],
+			    "rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_air2\",Name:\"snowstorm\"}",
+			    "bone": "low_right_arm.end",
+			    "start": 14,
+			    "length": 18,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0
+			},
+			{
+			    "morph": "{Scheme:\"avatar_air2\",Name:\"snowstorm\"}",
+			    "bone": "low_left_arm.end",
+			    "start": 14,
+			    "length": 18,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0
+			},
+			{
+			    "morph": "{Scheme:\"avatar_air3\",Name:\"snowstorm\"}",
+			    "bone": "body",
+			    "start": 4,
+			    "length": 8,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0
+			}
+		]
+	},
+	"avatar_earth": {
+		"title": "Earth",
+		"description": "Avatar: Earth bending",
+		"morphs": [
+			{
+			    "morph": "{Meta:0b,Block:\"minecraft:grass\",Name:\"block\"}",
+			    "bone": "misc_bone_1",
+			    "start": 0,
+			    "length": 58,
+			    "target": false,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "translate": [0.0, -0.25, 0.0]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_earth3\",Name:\"snowstorm\"}",
+			    "bone": "misc_bone_1",
+			    "start": 31,
+			    "length": 20,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "translate": [0.0, 0.25, 0.0],
+			    "rotation": [-90, 0, 0]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_earth1\",Name:\"snowstorm\"}",
+			    "bone": "anchor",
+			    "start": 18,
+			    "length": 3,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "translate": [0.0, 2.25, -0.75]
+			},
+			{
+			    "morph": "{Meta:0b,Block:\"minecraft:dirt\",Name:\"block\"}",
+			    "bone": "low_leg_right",
+			    "start": 17,
+			    "length": 10,
+			    "target": false,
+			    "fade_in": 1,
+			    "fade_out": 1,
+			    "translate": [0.0, 0.229, 0.0],
+			    "scale": [0.4, 0.4, 0.4]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_earth2\",Name:\"snowstorm\"}",
+			    "bone": "low_leg_right",
+			    "start": 17,
+			    "length": 3,
+			    "target": true,
+			    "fade_in": 1,
+			    "fade_out": 1,
+			    "translate": [0.0, 0.5, 0.0],
+			    "scale": [0.4, 0.4, 0.4]
+			}
+		]
+	},
+	"avatar_fire": {
+		"title": "Fire",
+		"description": "Avatar: Fire bending",
+		"morphs": [
+			{
+			    "morph": "{Scheme:\"avatar_fire1\",Name:\"snowstorm\"}",
+			    "bone": "low_leg_right",
+			    "start": 35,
+			    "length": 10,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "rotation": [180, 0, 0],
+			    "translate": [0, 0.35, 0]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_fire2\",Name:\"snowstorm\"}",
+			    "bone": "anchor",
+			    "start": 25,
+			    "length": 5,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "rotation": [90, 0, 0],
+			    "translate": [0, 0, -0.5]
+			},
+			{
+			    "morph": "{Scheme:\"avatar_fire3\",Name:\"snowstorm\"}",
+			    "bone": "anchor",
+			    "start": 45,
+			    "length": 20,
+			    "target": true,
+			    "fade_in": 0,
+			    "fade_out": 0,
+			    "rotation": [90, 0, 0],
+			    "translate": [0, 1.9, -0.65]
+			}
+		]
+	},
+	"avatar_water": {
+		"title": "Water",
+		"description": "Avatar: Water bending",
+		"morphs": [
+			{
+			    "morph": "{Scheme:\"avatar_water\",Name:\"snowstorm\"}",
+			    "bone": "misc_bone_1",
+			    "start": 0,
+			    "length": 58,
+			    "target": true,
+			    "fade_in": 5,
+			    "fade_out": 5
+			}
+		]
+	},
+	"heart_fountain": {
+		"title": "Heart Fountain",
+		"description": "Heart Fountain effect",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"heart_fountain\",Name:\"snowstorm\"}",
+				"bone": "head",
+				"start": 1,
+				"length": 59,
+				"target": true,
+				"fade_in": 5,
+				"fade_out": 5
+			}
+		]
+	},
+	"sparkles": {
+		"title": "Sparkles!",
+		"description": "OMG, so sparkly!",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"sparkles\",Name:\"snowstorm\"}",
+				"bone": "low_body",
+				"start": 0,
+				"length": 80,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"rainbow": {
+		"title": "Rainbow",
+		"description": "Just like Sponge Bob",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"rainbow\",Name:\"snowstorm\"}",
+				"bone": "low_body",
+				"start": 25,
+				"length": 80,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.25,
+					-0.25
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					180.0,
+					0.0
+				]
+			}
+		]
+	},
+	"cold": {
+		"title": "Cold",
+		"description": "It's so chill here!",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"cold_breath\",Name:\"snowstorm\"}",
+				"bone": "head",
+				"start": 119,
+				"length": 27,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.093751,
+					0.164063
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"spit": {
+		"title": "Spit",
+		"description": "*Audible spitting noises*",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"spit\",Name:\"snowstorm\"}",
+				"bone": "head",
+				"start": 21,
+				"length": 10,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.093751,
+					0.164063
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					-90.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"bubbles": {
+		"title": "Bubbles",
+		"description": "Bubbles",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"bubbles\",Name:\"snowstorm\"}",
+				"bone": "low_left_arm.item",
+				"start": 130,
+				"length": 30,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					-0.40625,
+					0.054688,
+					0.0625
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					-90.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"fireworks": {
+		"title": "Firework",
+		"description": "Ka-boom, but beautiful!",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"rocket_start\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_1",
+				"start": 90,
+				"length": 35,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.140625,
+					0.0
+				],
+				"scale": [
+					-0.7,
+					0.7,
+					0.7
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"rocket_trail\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_1",
+				"start": 124,
+				"length": 18,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.140625,
+					0.0
+				],
+				"scale": [
+					-0.7,
+					0.7,
+					0.7
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"fireworks\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_1",
+				"start": 140,
+				"length": 50,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					-0.7,
+					0.7,
+					0.7
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"jetpack_fire": {
+		"title": "Jetpack Fire",
+		"description": "Jetpack Fire effect",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"jetpack_fire\",Name:\"snowstorm\"}",
+				"bone": "body",
+				"start": 1,
+				"length": 59,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"rotation": [180, 0, 0],
+				"translate": [0.175, -0.45, 0.25]
+			},
+			{
+				"morph": "{Scheme:\"jetpack_fire\",Name:\"snowstorm\"}",
+				"bone": "body",
+				"start": 1,
+				"length": 59,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"rotation": [180, 0, 0],
+				"translate": [-0.175, -0.45, 0.25]
+			}
+		]
+	},
+	"around": {
+		"title": "Around",
+		"description": "You spin me round round, baby round round!",
+		"looping": true,
+		"morphs": [
+			{
+				"morph": "{Scheme:\"around\",Name:\"snowstorm\"}",
+				"bone": "low_body",
+				"start": 0,
+				"length": 1000,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"brewing": {
+		"title": "Brewing",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"cauldron_fire\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_1",
+				"start": 20,
+				"length": 169,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"cauldron_bubbles\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_1",
+				"start": 66,
+				"length": 105,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.992188,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"candies": {
+		"title": "Candies",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"candies\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_3",
+				"start": 22,
+				"length": 3,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"candies\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_3",
+				"start": 49,
+				"length": 3,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"candies\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_3",
+				"start": 75,
+				"length": 3,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"candy_puke": {
+		"title": "Candy puke",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"candies_puke\",Name:\"snowstorm\"}",
+				"bone": "head",
+				"start": 89,
+				"length": 32,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.148438,
+					0.234375
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"pandoras_box": {
+		"title": "Pandora's box",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"ghosts\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_2",
+				"start": 158,
+				"length": 38,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.125,
+					-0.185
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"ice_skating": {
+		"title": "Ice skating",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"christmas_snowpuffs\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_1",
+				"start": 10,
+				"length": 5,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.4375, 0.0],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowpuffs\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_3",
+				"start": 20,
+				"length": 5,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.375, 0.0],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowpuffs\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_2",
+				"start": 30,
+				"length": 5,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.25, 0.0],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_icespray\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_2",
+				"start": 52,
+				"length": 11,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.0, -0.0625],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 180.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_icespray\",Name:\"snowstorm\"}",
+				"bone": "misc_gbone_3",
+				"start": 52,
+				"length": 11,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.0, -0.0625],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 180.0, 0.0]
+			}
+		]
+	},
+	"cup_of_joe": {
+		"title": "Cup of Joe",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"christmas_snow\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 0,
+				"length": 1000,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.0, -0.75],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			}
+		]
+	},
+	"snowball_fight": {
+		"title": "Snowball fight",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 27,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 34,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 40,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 46,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 51,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 55,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 59,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 63,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 67,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_snowballs\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 75,
+				"length": 2,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.3125, 0.625, 0.625],
+				"scale": [1.0, -1.0, 1.0],
+				"rotation": [-90.0, 0.0, 0.0]
+			}
+		]
+	},
+	"iceberg": {
+		"title": "Iceberg",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"christmas_iceberg\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 60,
+				"length": 80,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.0, -0.7],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			},
+			{
+				"morph": "{Scheme:\"christmas_ice_shatter\",Name:\"snowstorm\"}",
+				"bone": "low_body",
+				"start": 153,
+				"length": 7,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [0.0, 0.0, 0.0],
+				"scale": [1.0, 1.0, 1.0],
+				"rotation": [0.0, 0.0, 0.0]
+			}
+		]
+	},
+	"pwr": {
+		"title": "PWR",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"pwr_jump\",Name:\"snowstorm\"}",
+				"bone": "anchor",
+				"start": 16,
+				"length": 4,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					-0.554688
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"pwr_flare\",Name:\"snowstorm\"}",
+				"bone": "low_right_arm.end",
+				"start": 23,
+				"length": 10,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			{
+				"morph": "{Scheme:\"pwr_sparks\",Name:\"snowstorm\"}",
+				"bone": "low_right_arm.end",
+				"start": 30,
+				"length": 4,
+				"target": true,
+				"fade_in": 32,
+				"fade_out": 4,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	},
+	"cobra_kick": {
+		"title": "Cobra Kick",
+		"description": "...",
+		"morphs": [
+			{
+				"morph": "{Scheme:\"cobra_kick_trail\",Name:\"snowstorm\"}",
+				"bone": "misc_bone_1",
+				"start": 73,
+				"length": 5,
+				"target": true,
+				"fade_in": 0,
+				"fade_out": 0,
+				"translate": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation": [
+					0.0,
+					0.0,
+					0.0
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,132 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"main": {
+			"loop": true,
+			"bones": {
+				"penguin": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"right_foot": {
+					"position": {
+						"vector": [0, "math.clamp(math.sin(q.life_time * 256 + 32) * 0.5, 0, 1)", 0]
+					}
+				},
+				"left_foot": {
+					"position": {
+						"vector": [0, "math.clamp(-math.sin(q.life_time * 256 + 32) * 0.5, 0, 1)", 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [0, "math.cos(q.life_time * 256) * 10", "math.sin(q.life_time * 256) * 10"]
+					},
+					"position": {
+						"vector": [0, "math.sin(q.life_time * 512) * 0.25", 0]
+					},
+					"scale": {
+						"vector": ["math.clamp(math.sin(q.life_time * 512 - 32) * 0.04 + 1, 0, 1)", "math.clamp(math.sin(q.anim_time * 512 - 64 - 32) * 0.06 + 1, 0, 1)", 1]
+					}
+				},
+				"right_flipper": {
+					"rotation": {
+						"vector": [0, 0, "math.clamp(math.cos(q.life_time * 256) * 12.25, 0, 45)"]
+					}
+				},
+				"left_flipper": {
+					"rotation": {
+						"vector": [0, 0, "-math.clamp(-math.cos(q.life_time * 256) * 12.25, 0, 45)"]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [0, "-math.sin(q.life_time * 256) * 5", 0]
+					}
+				},
+				"hat": {
+					"scale": {
+						"vector": ["c.hat_enabled", "c.hat_enabled", "c.hat_enabled"]
+					}
+				},
+				"spinner": {
+					"rotation": {
+						"vector": [0, "-q.life_time * 180", 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 256) * 10", 0]
+					}
+				},
+				"eyes": {
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 128) * 10 + 10, 0.1, 1)", 1]
+					}
+				}
+			}
+		},
+		"sleeping": {
+			"loop": true,
+			"bones": {
+				"penguin": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"hat": {
+					"scale": {
+						"vector": ["c.hat_enabled", "c.hat_enabled", "c.hat_enabled"]
+					}
+				}
+			}
+		},
+		"highspeed": {
+			"loop": true,
+			"bones": {
+				"penguin": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"hat": {
+					"scale": {
+						"vector": ["c.hat_enabled", "c.hat_enabled", "c.hat_enabled"]
+					}
+				}
+			}
+		},
+		"swimming": {
+			"loop": true,
+			"bones": {
+				"penguin": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"hat": {
+					"scale": {
+						"vector": ["c.hat_enabled", "c.hat_enabled", "c.hat_enabled"]
+					}
+				}
+			}
+		},
+		"flying": {
+			"loop": true,
+			"bones": {
+				"penguin": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"hat": {
+					"scale": {
+						"vector": ["c.hat_enabled", "c.hat_enabled", "c.hat_enabled"]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

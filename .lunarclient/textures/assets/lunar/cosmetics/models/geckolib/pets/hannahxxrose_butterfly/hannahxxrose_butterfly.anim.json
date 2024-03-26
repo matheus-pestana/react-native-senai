@@ -1,0 +1,188 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"main": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"centered_pivot": {
+					"rotation": {
+						"vector": [0, "q.head_y_rotation-q.body_y_rotation", 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(-80+q.life_time*720)*0.8-q.head_x_rotation*0.1", "math.clamp(c.local_z_velocity_smoothed*0.5,-6,6)"]
+					}
+				},
+				"pet": {
+					"rotation": {
+						"vector": ["45+math.clamp(c.local_z_velocity_smoothed*3,-35,35)", 0, "math.clamp(c.local_x_velocity_smoothed*3,-20,20)"]
+					},
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"vector": [0, "v.leftwing = -20+math.cos(q.life_time*720)*40;v.leftwing;", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": [0, "-v.leftwing;", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hannahxrose_pet",
+					"locator": "locator"
+				}
+			}
+		},
+		"water": {
+			"loop": true,
+			"bones": {
+				"centered_pivot": {
+					"rotation": {
+						"vector": [0, "q.head_y_rotation-q.body_y_rotation", 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(-80+q.life_time*360)*0.8-q.head_x_rotation*0.1", "math.clamp(c.local_z_velocity_smoothed*0.5,-6,6)"]
+					}
+				},
+				"pet": {
+					"rotation": {
+						"vector": ["45+math.clamp(c.local_z_velocity_smoothed*3,-35,35)", 0, "math.clamp(c.local_x_velocity_smoothed*3,-20,20)"]
+					},
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"vector": [0, "v.leftwing = -20+math.cos(q.life_time*360)*40;v.leftwing;", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": [0, "-v.leftwing;", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hannahxrose_pet",
+					"locator": "locator"
+				}
+			}
+		},
+		"swimming": {
+			"loop": true,
+			"bones": {
+				"centered_pivot": {
+					"rotation": {
+						"vector": [0, "q.head_y_rotation-q.body_y_rotation", 0]
+					},
+					"position": {
+						"vector": [
+							-4,
+							"-5+math.cos(-80+q.life_time*360)*0.8-q.head_x_rotation*0.1",
+							"math.clamp(c.local_z_velocity_smoothed*0.5,-6,6)-c.local_y_velocity_smoothed"
+						]
+					}
+				},
+				"pet": {
+					"rotation": {
+						"vector": ["-25+math.clamp(c.local_z_velocity_smoothed*3,-35,35)", 0, "0+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"]
+					},
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"vector": ["math.cos(q.life_time*360)*15", "v.leftwing = -10+math.cos(90-q.life_time*360)*10;v.leftwing;", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": ["math.cos(q.life_time*360)*15", "-v.leftwing;", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hannahxrose_pet",
+					"locator": "locator"
+				}
+			}
+		},
+		"main_flying": {
+			"loop": true,
+			"bones": {
+				"centered_pivot": {
+					"rotation": {
+						"vector": [0, "q.head_y_rotation-q.body_y_rotation", 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(-80+q.life_time*1440)*0.8", "math.clamp(c.local_z_velocity_smoothed*0.5,-6,6)"]
+					}
+				},
+				"pet": {
+					"rotation": {
+						"vector": ["45+math.clamp(c.local_z_velocity_smoothed*3,-35,35)", 0, "math.clamp(c.local_x_velocity_smoothed*3,-40,40)"]
+					},
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"vector": [0, "v.leftwing = -20+math.cos(q.life_time*1440)*40;v.leftwing;", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": [0, "-v.leftwing;", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hannahxrose_pet",
+					"locator": "locator"
+				}
+			}
+		},
+		"sneaking": {
+			"loop": true,
+			"animation_length": 1.875,
+			"bones": {
+				"pet": {
+					"rotation": {
+						"vector": [30, 0, 0]
+					},
+					"position": {
+						"vector": [3, -1, -4.4]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"vector": [0, "-70-math.cos(q.life_time*300)*7.5", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": [0, "70+math.cos(q.life_time*300)*7.5", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hannahxrose_pet",
+					"locator": "locator"
+				}
+			}
+		}
+	}
+}

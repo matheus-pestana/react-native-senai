@@ -1,0 +1,65 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/xmas_nutcracker/xmas_nutcracker.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/xmas_nutcracker/xmas_nutcracker.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/xmas_nutcracker/xmas_nutcracker.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "5",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_swimming && !q.is_elytra_flying && !q.is_flying && !(c.ground_speed_smoothed > 0.5)",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "moving",
+						"plays_when": "!q.is_swimming && !q.is_elytra_flying && !q.is_flying && (c.ground_speed_smoothed > 0.5)",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "swimming",
+						"plays_when": "q.is_swimming && !q.is_elytra_flying && !q.is_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "creative_flight",
+						"plays_when": "!q.is_swimming && !q.is_elytra_flying && q.is_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "elytra_flight",
+						"plays_when": "!q.is_swimming && q.is_elytra_flying && !q.is_flying",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.65,
+					"y": 0.55,
+					"z": -0.2
+				}
+			}
+		},
+		{
+			"transformType": "scale",
+			"values": {
+				"gui": {
+					"x": 0.9,
+					"y": 0.9,
+					"z": 0.9
+				}
+			}
+		}
+	]
+}

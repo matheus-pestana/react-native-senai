@@ -1,0 +1,325 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"elytra": {
+			"loop": true,
+			"bones": {
+				"body_y": {
+					"rotation": {
+						"vector": [
+							0,
+							"-q.body_y_rotation;",
+							0
+						]
+					}
+				},
+				"axolotl": {
+					"rotation": {
+						"vector": [
+							"{ return -90; };",
+							"{ return -c.local_x_velocity_smoothed * 5; };",
+							0
+						]
+					},
+					"position": {
+						"vector": [
+							"-5 + c.local_x_velocity_smoothed * 0.25;",
+							0,
+							"-c.local_y_velocity_smoothed * 0.5;"
+						]
+					}
+				},
+				"cape": {
+					"scale": {
+						"vector": [
+							"1.5;",
+							"1.5;",
+							"1.5;"
+						]
+					}
+				},
+				"up_hair": {
+					"rotation": {
+						"vector": [
+							"{ return lunar.speed_vibration(c.movement_speed_smoothed * 0.005); };",
+							0,
+							0
+						]
+					}
+				},
+				"rightup_hair": {
+					"rotation": {
+						"vector": [
+							"{ return lunar.speed_vibration(c.movement_speed_smoothed * 0.005); };",
+							0,
+							0
+						]
+					}
+				},
+				"rightup_hair2": {
+					"rotation": {
+						"vector": [
+							"{ return lunar.speed_vibration(c.movement_speed_smoothed * 0.005); };",
+							0,
+							0
+						]
+					}
+				},
+				"rightdown_hair": {
+					"rotation": {
+						"vector": [
+							"{ return lunar.speed_vibration(c.movement_speed_smoothed * 0.005); };",
+							0,
+							0
+						]
+					}
+				},
+				"leftdown_hair": {
+					"rotation": {
+						"vector": [
+							"{ return lunar.speed_vibration(c.movement_speed_smoothed * 0.005); };",
+							0,
+							0
+						]
+					}
+				},
+				"left_front_leg": {
+					"rotation": {
+						"vector": [
+							"90 - 22.5;",
+							"22.5 + lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				},
+				"right_front_leg": {
+					"rotation": {
+						"vector": [
+							"90 - 22.5;",
+							"-22.5 - lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				},
+				"left_back_leg": {
+					"rotation": {
+						"vector": [
+							"90 - 22.5;",
+							"22.5 + lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				},
+				"right_back_leg": {
+					"rotation": {
+						"vector": [
+							"90 - 22.5;",
+							"-22.5 - lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				},
+				"tail1": {
+					"rotation": {
+						"vector": [
+							0,
+							"lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [
+							0,
+							"lunar.speed_vibration(c.movement_speed_smoothed * 0.005);",
+							0
+						]
+					}
+				}
+			}
+		},
+		"main": {
+			"loop": true,
+			"bones": {
+				"body_y": {
+					"rotation": {
+						"vector": [
+							0,
+							"-q.body_y_rotation;",
+							0
+						]
+					}
+				},
+				"axolotl": {
+					"position": {
+						"vector": [
+							"{ v.idle = 0; v.moving = -math.sin(q.life_time * 512) * 0.5 + math.cos(q.life_time * 64) * 2 - 1; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							"{ v.idle = math.cos(q.life_time * 64); v.moving = math.cos(q.life_time * 256); v.swimming = 0; return math.lerp( math.lerp(v.idle, v.moving, c.is_walking_smoothed), v.swimming, c.is_swimming_smoothed ) - c.y_velocity_smoothed * 0.5 + c.is_swimming_smoothed * 5; };",
+							"{ v.idle = 0; v.moving = 0; v.swimming = math.cos(q.life_time * 256) * 2 + 5; return math.lerp( math.lerp(v.idle, v.moving, c.is_walking_smoothed), v.swimming, c.is_swimming_smoothed ); };"
+						]
+					},
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.sin(q.life_time * 64) * 8; v.moving = math.sin(q.life_time * 256) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed) - math.clamp(c.y_velocity_smoothed * 2.5, -90, 90) - (c.is_swimming_smoothed * 90) - (q.is_crouching * 30) + (c.is_moving_smoothed * c.is_moving_backwards_smoothed) * (c.is_crouching_smoothed * 45); };",
+							"{ return c.is_moving_backwards_smoothed * 180; };",
+							0
+						]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [
+							0,
+							"{ v.idle = math.cos(q.life_time * 128) * 4; v.moving = math.cos(q.life_time * 512) * 16; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"left_front_leg": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.cos(q.life_time * 256) * 8; v.moving = math.cos(q.life_time * 1024) * 8 + 45; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0,
+							"{ v.idle = -67.5 + math.cos(q.life_time * 64 + 32) * 16; v.moving = -67.5 + math.cos(q.life_time * 256 + 32) * 16; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };"
+						]
+					}
+				},
+				"right_front_leg": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.cos(q.life_time * 256) * 8; v.moving = math.cos(q.life_time * 1024) * 8 + 45; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0,
+							"{ v.idle = 67.5 - math.cos(q.life_time * 64 + 32) * 16; v.moving = 67.5 - math.cos(q.life_time * 256 + 32) * 16; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };"
+						]
+					}
+				},
+				"left_back_leg": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = -math.cos(q.life_time * 256) * 8; v.moving = -math.cos(q.life_time * 1024) * 8 + 45; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0,
+							"{ v.idle = -67.5 + math.cos(q.life_time * 64 + 32) * 16; v.moving = -67.5 + math.cos(q.life_time * 256 + 32) * 16; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };"
+						]
+					}
+				},
+				"right_back_leg": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = -math.cos(q.life_time * 256) * 8; v.moving = -math.cos(q.life_time * 1024) * 8 + 45; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0,
+							"{ v.idle = 67.5 - math.cos(q.life_time * 64 + 32) * 16; v.moving = 67.5 - math.cos(q.life_time * 256 + 32) * 16; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };"
+						]
+					}
+				},
+				"cape": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.sin(q.life_time * 64) * 4 + 4; v.moving = math.sin(q.life_time * 512) * 4 + 4; return math.lerp(v.idle, v.moving, c.is_walking_smoothed) - math.clamp(c.y_velocity_smoothed * 2.5, -22.5, 0); };",
+							"{ v.idle = math.sin(q.life_time * 128) * 2; v.moving = math.sin(q.life_time * 512) * 12.25; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"tail1": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = -math.cos(q.life_time * 64 + 16) * 8; v.moving = -math.cos(q.life_time * 256 + 16) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							"{ v.idle = math.sin(q.life_time * 128 + 32) * 8; v.moving = math.sin(q.life_time * 512 + 32) * 22.5; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = -math.cos(q.life_time * 64 + 16) * 8; v.moving = -math.cos(q.life_time * 256 + 16) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							"{ v.idle = math.sin(q.life_time * 128 - 64) * 8; v.moving = math.sin(q.life_time * 512 - 64) * 22.5; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.cos(q.life_time * 64 - 16) * 8; v.moving = math.cos(q.life_time * 256 - 16) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed) + q.head_x_rotation * 0.5 + (c.is_swimming_smoothed * 22.5) + math.clamp(c.is_crouching_smoothed * 1000 - 980, 0, 20); };",
+							"{ v.idle = math.cos(q.life_time * 128 + 32) * 4; v.moving = math.cos(q.life_time * 512 + 32) * 4; return math.lerp(v.idle, v.moving, c.is_walking_smoothed) + q.head_y_rotation * 0.5; };",
+							0
+						]
+					}
+				},
+				"eyes": {
+					"position": {
+						"vector": [
+							0,
+							"{ return math.clamp(c.is_crouching_smoothed * 1000 - 980, 0, 20) * 0.02; };",
+							0
+						]
+					},
+					"scale": {
+						"vector": [
+							1,
+							"math.clamp( math.sin(q.life_time * 64) * 20 + 20, 0.1, 1)",
+							1
+						]
+					}
+				},
+				"up_hair": {
+					"rotation": {
+						"vector": [
+							"{ v.idle = math.cos(q.life_time * 128) * 8; v.moving = math.cos(q.life_time * 512) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0,
+							0
+						]
+					}
+				},
+				"rightup_hair": {
+					"rotation": {
+						"vector": [
+							0,
+							"{ v.idle = math.cos(q.life_time * 128) * 8; v.moving = math.cos(q.life_time * 512) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"rightup_hair2": {
+					"rotation": {
+						"vector": [
+							0,
+							"{ v.idle = math.sin(q.life_time * 128) * 8; v.moving = math.sin(q.life_time * 512) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"rightdown_hair": {
+					"rotation": {
+						"vector": [
+							0,
+							"{ v.idle = math.cos(q.life_time * 128) * 8; v.moving = math.cos(q.life_time * 512) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"leftdown_hair": {
+					"rotation": {
+						"vector": [
+							0,
+							"{ v.idle = math.cos(q.life_time * 128) * 8; v.moving = math.cos(q.life_time * 512) * 8; return math.lerp(v.idle, v.moving, c.is_walking_smoothed); };",
+							0
+						]
+					}
+				},
+				"glasses": {
+					"rotation": {
+						"vector": [
+							"{ v.default = math.min(math.sin(c.y_velocity_smoothed * 5) * 45, 0); return v.default + math.clamp(c.is_crouching_smoothed * 1000 - 980, 0, 14); };",
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

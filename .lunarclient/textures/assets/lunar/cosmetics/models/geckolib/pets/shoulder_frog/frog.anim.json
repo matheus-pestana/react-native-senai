@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"static": {
+			"loop": true
+		},
+		"main": {
+			"loop": true,
+			"animation_length": 3.12,
+			"bones": {
+				"frog": {
+					"rotation": {
+						"vector": ["(-q.is_swimming*90)", 0, 0]
+					},
+					"position": {
+						"vector": ["q.is_swimming*-2", "t.pet_y_pos=math.max(-q.instant_y_velocity*0.5,-0.5);t.pet_y_pos_filtered= t.pet_y_pos+q.is_swimming*5;return t.pet_y_pos_filtered;", 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": ["math.clamp(-q.instant_y_velocity*2,-30,20)", 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["(query.is_crouching_smooth_easeoutsine(0.15)*-20)+q.head_x_rotation*0.8+q.is_swimming*20", "q.head_y_rotation*0.8", 0]
+					}
+				},
+				"eyes": {
+					"scale": {
+						"vector": [1, "t.wink_timing=-math.cos(q.anim_time*72)*0.9;t.wink=math.clamp(1-math.min(math.cos(q.anim_time*590),0)*t.wink_timing,0,1);return q.is_crouching ? 0.4 : t.wink;", 1]
+					}
+				},
+				"crown": {
+					"scale": {
+						"vector": ["lunar.check_for_biome(6)", "lunar.check_for_biome(6)", "lunar.check_for_biome(6)"]
+					}
+				},
+				"inner_throat": {
+					"scale": {
+						"vector": ["t.croak_timing=-math.cos(q.anim_time*180)*1;t.croak=math.clamp(math.min(math.cos(q.anim_time*60),0)*t.croak_timing*2.5,0,1.4);return t.croak;", "t.croak_timing=-math.cos(q.anim_time*180)*1;t.croak=math.clamp(math.min(math.cos(q.anim_time*60),0)*t.croak_timing*2.5,0,1.4);return t.croak;", "t.croak_timing=-math.cos(q.anim_time*180)*1;t.croak=math.clamp(math.min(math.cos(q.anim_time*60),0)*t.croak_timing*2.5,0,1.4);return t.croak;"]
+					}
+				},
+				"legs": {
+					"rotation": {
+						"vector": ["math.clamp(q.instant_y_velocity*2,0,20)", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-query.instant_y_velocity*0.1,0,1)", 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

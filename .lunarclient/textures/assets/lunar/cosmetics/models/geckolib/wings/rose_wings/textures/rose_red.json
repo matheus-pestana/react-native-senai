@@ -1,0 +1,35 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/wings/rose_wings/rose_wings.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/wings/rose_wings/textures/rose_red.webp",
+	"animation": "lunar:cosmetics/models/geckolib/wings/turkey_wings.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "15",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "1",
+						"transition_easing": "easeOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": 0.55,
+					"y": 0.3,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

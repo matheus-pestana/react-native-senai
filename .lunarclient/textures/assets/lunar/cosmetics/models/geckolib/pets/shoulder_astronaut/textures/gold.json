@@ -1,0 +1,61 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/shoulder_astronaut/shoulder_astronaut.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/shoulder_astronaut/textures/gold.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/shoulder_astronaut/shoulder_astronaut.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_swimming && !q.is_elytra_flying && !lunar.fastflight()",
+						"transition_easing": "easeOutSine"
+					},
+					{
+						"anim": "swimming",
+						"plays_when": "q.is_swimming && !q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "elytra_flying",
+						"plays_when": "!q.is_swimming && q.is_elytra_flying",
+						"transition_easing": "easeOutCirc",
+                        "transition_ticks": "18"
+					},
+                    {
+                        "anim": "fast_flight",
+                        "plays_when": "!q.is_swimming && lunar.fastflight()",
+                        "transition_easing": "easeOutCirc",
+                        "transition_ticks": "18"
+                    }
+				]
+			},
+            {
+                "name":"gui",
+                "states":[
+                {
+                    "anim":"in_gui",
+                    "plays_when":"q.is_in_gui"
+                }
+            ]
+            }
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.65,
+					"y": 0.12,
+					"z": -0.05
+				}
+			}
+		}
+	]
+}

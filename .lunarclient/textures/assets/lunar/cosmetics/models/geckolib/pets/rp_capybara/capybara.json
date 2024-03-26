@@ -1,0 +1,55 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/rp_capybara/rp_capybara.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/rp_capybara/capybara.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/rp_capybara/rp_capybara.anim.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!(c.afk_timer >= 60) && !q.is_swimming && !q.is_flying && !c.highspeed && !q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "sleeping",
+						"plays_when": "(c.afk_timer >= 60)",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "highspeed",
+						"plays_when": "!q.is_swimming && !q.is_flying && (c.highspeed || q.is_elytra_flying)",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "swimming",
+						"plays_when": "q.is_swimming && !q.is_flying && !q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "flying",
+						"plays_when": "q.is_flying",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.5,
+					"y": 0.35,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

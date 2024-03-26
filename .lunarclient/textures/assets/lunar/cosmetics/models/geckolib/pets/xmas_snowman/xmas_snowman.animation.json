@@ -1,0 +1,289 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"main": {
+			"loop": true,
+			"bones": {
+				"pet_root": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"snowman": {
+					"scale": {
+						"vector": [
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(-c.y_velocity_smoothed * 0.01, -5, 5) +math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1"
+						]
+					}
+				},
+				"scarf_strand": {
+					"rotation": {
+						"vector": [
+							0,
+							"math.clamp(math.clamp(c.local_z_velocity_smoothed, -8, 8), -10, 10) * 5 +lunar.movewave_sin(512, 8, 0)",
+							"-math.cos(q.life_time * 128) * 5"
+						]
+					}
+				},
+				"stick": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "-math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"stick2": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"eye1": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64 + 32) * 0.1", "math.cos(q.life_time * 64 + 32) * 0.1", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64 + 8) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"eye2": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64) * 0.1", "-math.cos(q.life_time * 128) * 0.25", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"carrot": {
+					"rotation": {
+						"vector": ["math.clamp(math.cos(q.life_time * 128) * 5, -11, 11)", 0, 0]
+					}
+				},
+				"hat": {
+					"rotation": {
+						"vector": ["-math.cos(q.life_time * 128) * 5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_mid": {
+					"rotation": {
+						"vector": [
+							"-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5",
+							"q.head_y_rotation * 0.5",
+							"-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"
+						]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_head": {
+					"rotation": {
+						"vector": [
+							"q.head_x_rotation * 0.5-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5",
+							"q.head_y_rotation * 0.5",
+							"-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"
+						]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"cosmetic": {
+					"position": {
+						"vector": [0, "q.body_slot_equipped * 1.5", 0]
+					}
+				},
+				"scarf": {
+					"rotation": {
+						"vector": [0, "q.head_y_rotation * 0.5", 0]
+					}
+				}
+			}
+		},
+		"swimming": {
+			"loop": true,
+			"bones": {
+				"pet_root": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"snowman": {
+					"scale": {
+						"vector": [
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(-c.y_velocity_smoothed * 0.01, -5, 5) +math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1"
+						]
+					}
+				},
+				"scarf_strand": {
+					"rotation": {
+						"vector": [
+							0,
+							"math.clamp(math.clamp(c.local_z_velocity_smoothed, -8, 8), -10, 10) * 5 +lunar.movewave_sin(512, 8, 0)",
+							"-math.cos(q.life_time * 128) * 5"
+						]
+					}
+				},
+				"stick": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "-math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"stick2": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"eye1": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64 + 32) * 0.1", "math.cos(q.life_time * 64 + 32) * 0.1", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64 + 8) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"eye2": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64) * 0.1", "-math.cos(q.life_time * 128) * 0.25", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"carrot": {
+					"rotation": {
+						"vector": ["math.clamp(math.cos(q.life_time * 128) * 5, -11, 11)", 0, 0]
+					}
+				},
+				"hat": {
+					"rotation": {
+						"vector": ["-math.cos(q.life_time * 128) * 5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_mid": {
+					"rotation": {
+						"vector": ["-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5", 0, "-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_head": {
+					"rotation": {
+						"vector": ["-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5", 0, "-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"cosmetic": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					},
+					"position": {
+						"vector": [0, -1.5, 2]
+					}
+				}
+			}
+		},
+		"elytra_flight": {
+			"loop": true,
+			"bones": {
+				"pet_root": {
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"snowman": {
+					"scale": {
+						"vector": [
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(-c.y_velocity_smoothed * 0.01, -5, 5) +math.sin(q.life_time * 128) * 0.02 + 1",
+							"math.clamp(c.y_velocity_smoothed * 0.01, -5, 5) +-math.sin(q.life_time * 128) * 0.02 + 1"
+						]
+					}
+				},
+				"scarf_strand": {
+					"rotation": {
+						"vector": [
+							0,
+							"math.clamp(math.clamp(c.local_z_velocity_smoothed, -8, 8), -10, 10) * 5 +lunar.movewave_sin(512, 8, 0)",
+							"-math.cos(q.life_time * 128) * 5"
+						]
+					}
+				},
+				"stick": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "-math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"stick2": {
+					"rotation": {
+						"vector": [0, "math.sin(q.life_time * 128) * 5", "math.cos(q.life_time * 128) * 5"]
+					}
+				},
+				"eye1": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64 + 32) * 0.1", "math.cos(q.life_time * 64 + 32) * 0.1", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64 + 8) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"eye2": {
+					"position": {
+						"vector": ["math.sin(q.life_time * 64) * 0.1", "-math.cos(q.life_time * 128) * 0.25", 0]
+					},
+					"scale": {
+						"vector": [1, "math.clamp(math.sin(q.life_time * 64) * 30 + 30, 0.1, 1)", 1]
+					}
+				},
+				"carrot": {
+					"rotation": {
+						"vector": ["math.clamp(math.cos(q.life_time * 128) * 5, -11, 11)", 0, 0]
+					}
+				},
+				"hat": {
+					"rotation": {
+						"vector": ["-math.cos(q.life_time * 128) * 5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_mid": {
+					"rotation": {
+						"vector": ["-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5", 0, "-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"snowman_head": {
+					"rotation": {
+						"vector": ["-math.clamp(c.local_z_velocity_smoothed, -8, 8) * 2.5", 0, "-math.clamp(c.local_x_velocity_smoothed, -8, 8) * 2.5"]
+					},
+					"position": {
+						"vector": [0, "math.clamp(-c.y_velocity_smoothed * 0.25, 0, 5)", 0]
+					}
+				},
+				"cosmetic": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 2]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

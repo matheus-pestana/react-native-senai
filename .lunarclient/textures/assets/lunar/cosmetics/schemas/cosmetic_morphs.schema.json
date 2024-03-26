@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/cosmeticMorphs",
+  "definitions": {
+    "cosmeticMorphs": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/cosmeticMorph"
+      }
+    },
+    "cosmeticMorph": {
+      "type": "object",
+      "properties": {
+        "morph": {
+          "type": "string"
+        },
+        "cycleTimeTicks": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/hats",
+  "definitions": {
+    "hats": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/cosmetic"
+      }
+    },
+    "transformation": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "transformType": {
+          "type": "string",
+          "enum": [
+            "scale",
+            "rotate",
+            "translate"
+          ]
+        },
+        "values": {
+          "type": "object",
+          "$ref": "#/definitions/transformationValues"
+        }
+      },
+      "required": [
+        "transformType",
+        "values"
+      ]
+    },
+    "conditionalTransformation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "condition": {
+          "type": "string",
+          "enum": ["none"]
+        },
+        "transformType": {
+          "type": "string",
+          "enum": [
+            "scale",
+            "rotate",
+            "translate"
+          ]
+        },
+        "values": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/transform"
+            },
+            {
+              "$ref": "#/definitions/transformationValues"
+            }
+          ]
+        }
+      },
+      "required": ["values"]
+    },
+    "transformationValues": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "gui": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "player": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "helmet": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "chestplate": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "leggings": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "boots": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "skin_layer": {
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        }
+      }
+    },
+    "transform": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "z": {
+          "type": "number"
+        },
+        "angle": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "cosmetic": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "animated": {
+          "type": "boolean"
+        },
+        "dynamic": {
+          "type": "boolean"
+        },
+        "bodyPart": {
+          "type": "string",
+          "enum": [
+            "BODY",
+            "HEAD",
+            "RIGHT_ARM",
+            "LEFT_ARM",
+            "RIGHT_LEG",
+            "LEFT_LEG"
+          ]
+        },
+        "cosmeticType": {
+          "type": "string",
+          "enum": [
+            "HATS",
+            "BODYWEAR"
+          ]
+        },
+        "showWithArmor": {
+          "type": "boolean"
+        },
+        "transformations": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "$ref": "#/definitions/transformation"
+              },
+              {
+                "type": "object",
+                "$ref": "#/definitions/conditionalTransformation"
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "name",
+        "bodyPart",
+        "cosmeticType",
+        "animated",
+        "dynamic"
+      ]
+    }
+  }
+}

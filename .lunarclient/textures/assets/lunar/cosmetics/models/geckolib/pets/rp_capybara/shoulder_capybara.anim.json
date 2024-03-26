@@ -1,0 +1,78 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"sleep": {
+			"loop": true,
+			"bones": {
+				"capybara": {
+					"position": {
+						"vector": [0.8, -0.575, -1]
+					},
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["30-math.cos(-120+q.life_time*90)*6", 0, "math.cos(-120+q.life_time*180)*4"]
+					},
+					"position": {
+						"vector": [0, "-0.5+math.cos(-80+q.life_time*90)*0.4", 0]
+					}
+				},
+				"sleep": {
+					"position": {
+						"vector": [0, "math.cos(q.life_time*90)", 0]
+					},
+					"scale": {
+						"vector": [0.7, 0.7, 0.7]
+					}
+				},
+				"bigZ": {
+					"position": {
+						"vector": ["math.cos(40+q.life_time*45)", "math.cos(60-q.life_time*45)", 0]
+					}
+				},
+				"smallZ": {
+					"position": {
+						"vector": ["math.cos(120-q.life_time*45)", "math.cos(70+q.life_time*45)", 0]
+					}
+				},
+				"snortbubble": {
+					"rotation": {
+						"vector": [0, "math.cos(-110+q.life_time*145)*7", "math.cos(q.life_time*145)*7"]
+					},
+					"scale": {
+						"vector": [
+							"0.6+math.cos(q.life_time*90)*0.1",
+							"0.6+math.cos(q.life_time*90)*0.1",
+							"0.6+math.cos(q.life_time*90)*0.1"
+						]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": ["math.cos(-95+q.life_time*90)*3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-0.5+math.cos(-40+q.life_time*90)*0.4", 0]
+					}
+				}
+			}
+		},
+		"main": {
+			"loop": true,
+			"bones": {
+				"capybara": {
+					"position": {
+						"vector": [0.8, -0.575, -1]
+					},
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

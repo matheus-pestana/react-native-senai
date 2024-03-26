@@ -1,0 +1,45 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/wings/snowy_christmas_tree_wings/snowy_christmas_tree_wings.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/wings/snowy_christmas_tree_wings/snowy_christmas_tree_wings.webp",
+	"animation": "lunar:cosmetics/models/geckolib/wings/simple_2d_wings.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "15",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "1",
+						"transition_easing": "easeOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": 0.0,
+					"y": 1.0,
+					"z": -0.5
+				}
+			}
+		},
+		{
+			"transformType": "scale",
+			"values": {
+				"gui": {
+					"x": 0.85,
+					"y": 0.85,
+					"z": 0.85
+				}
+			}
+		}
+	]
+}

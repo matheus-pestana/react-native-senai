@@ -1,0 +1,390 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"main": {
+			"loop": true,
+			"bones": {
+				"butterfly": {
+					"rotation": {
+						"vector": [
+							"-45+(math.cos(q.life_time*240)*3-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(45-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					},
+					"position": {
+						"vector": [
+							"t.posx=-1-(t.a*math.cos(t.b*t.a_t)+t.c*math.cos(t.d*t.a_t)+t.e*math.cos(t.f*t.a_t))*0.05;return (-3+t.posx)*(!query.is_in_water)+3;",
+							"t.a=11;t.b=-17;t.c=15;t.d=-4.2;t.e=-8;t.f=5;t.a_t=q.life_time*18;t.posy=(t.a*math.sin(t.b*t.a_t)+t.c*math.sin(t.d*t.a_t)+t.e*math.sin(t.f*t.a_t))*0.05;return (3+t.posy)*(!query.is_in_water)-3;",
+							"math.clamp(c.local_z_velocity_smoothed*1.2,-11,8)"
+						]
+					}
+				},
+				"left_antenna": {
+					"rotation": {
+						"vector": ["t.antx=math.cos(45-q.life_time*120)*2", 0, "t.antz=math.cos(q.life_time*720)*2"]
+					}
+				},
+				"left_antenna2": {
+					"rotation": {
+						"vector": ["t.antx=math.cos(45-q.life_time*120)*2", 0, "t.antz=math.cos(q.life_time*720)*2"]
+					}
+				},
+				"body2": {
+					"rotation": {
+						"vector": [
+							"(math.cos(90-q.life_time*240)*15-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(90-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					}
+				},
+				"rightwing9": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing=(-35+math.cos(q.life_time*1440)*60)*!q.is_in_water_smooth+35"]
+					}
+				},
+				"rightwing10": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing"]
+					}
+				},
+				"butterfly3": {
+					"rotation": {
+						"vector": [
+							"-45+(math.cos(q.life_time*240)*3-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(45-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					},
+					"position": {
+						"vector": [
+							"t.posx=-1-(t.a*math.cos(90-t.b*t.a_t)+t.c*math.cos(90-t.d*t.a_t)+t.e*math.cos(90-t.f*t.a_t))*0.05;return (-3+t.posx)*(!query.is_in_water_smooth)+3;",
+							"t.a=11;t.b=-17;t.c=15;t.d=-4.2;t.e=-8;t.f=5;t.a_t=q.life_time*18;t.posy=(t.a*math.sin(90-t.b*t.a_t)+t.c*math.sin(90-t.d*t.a_t)+t.e*math.sin(90-t.f*t.a_t))*0.05;return (3+t.posy)*(!query.is_in_water_smooth)-3;",
+							"math.clamp(c.local_z_velocity_smoothed*2,-10,10)"
+						]
+					},
+					"scale": {
+						"vector": [0.8, 0.8, 0.8]
+					}
+				},
+				"butterfly2": {
+					"rotation": {
+						"vector": [
+							"-45+(math.cos(q.life_time*240)*3-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(45-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					},
+					"position": {
+						"vector": [
+							"t.posx=-1-(t.a*math.cos(45-t.b*t.a_t)+t.c*math.cos(45-t.d*t.a_t)+t.e*math.cos(45-t.f*t.a_t))*0.05;return (-3+t.posx)*(!query.is_in_water_smooth)+3;",
+							"t.a=11;t.b=-17;t.c=15;t.d=-4.2;t.e=-8;t.f=5;t.a_t=q.life_time*18;t.posy=(t.a*math.sin(45-t.b*t.a_t)+t.c*math.sin(45-t.d*t.a_t)+t.e*math.sin(45-t.f*t.a_t))*0.05;return (3+t.posy)*(!query.is_in_water_smooth)-3;",
+							"math.clamp(c.local_z_velocity_smoothed*1.5,-10,10)"
+						]
+					},
+					"scale": {
+						"vector": [0.6, 0.6, 0.6]
+					}
+				},
+				"body3": {
+					"rotation": {
+						"vector": [
+							"(math.cos(90-q.life_time*240)*15-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(90-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					}
+				},
+				"rightwing12": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing3=(-35+math.cos(90-q.life_time*1150)*60)*!q.is_in_water_smooth+35"]
+					}
+				},
+				"rightwing13": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing3"]
+					}
+				},
+				"body4": {
+					"rotation": {
+						"vector": [
+							"(math.cos(90-q.life_time*240)*15-q.is_crouching*30)-q.is_swimming*90",
+							"math.clamp(c.local_x_velocity_smoothed*4,-30,30)",
+							"(math.sin(90-q.life_time*240)*5)+math.clamp(c.local_x_velocity_smoothed*3,-20,20)"
+						]
+					}
+				},
+				"rightwing22": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing2=(-35+math.cos(45-q.life_time*900)*60)*!q.is_in_water_smooth+35"]
+					}
+				},
+				"rightwing23": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing2"]
+					}
+				},
+				"butterfly_flight": {
+					"rotation": {
+						"vector": [
+							"(math.cos(q.life_time*240)*3-q.is_crouching*30)-q.is_swimming*90",
+							"(c.ground_speed_smoothed < 8) ? math.clamp(c.local_x_velocity_smoothed*7,-55,55) : c.local_x_velocity_smoothed",
+							0
+						]
+					},
+					"position": {
+						"vector": [0, "(math.cos(q.life_time*90)*2-lunar.sigmoid(c.local_y_velocity_smoothed,10,1.13))", 0]
+					}
+				},
+				"biome_none": {
+					"scale": {
+						"vector": ["t.none", "t.none", "t.none"]
+					}
+				},
+				"biome_desert": {
+					"scale": {
+						"vector": ["t.desert", "t.desert", "t.desert"]
+					}
+				},
+				"rightwing2": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing"]
+					}
+				},
+				"rightwing3": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing"]
+					}
+				},
+				"biome_end": {
+					"scale": {
+						"vector": ["t.end", "t.end", "t.end"]
+					}
+				},
+				"biome_ocean": {
+					"scale": {
+						"vector": ["t.ocean", "t.ocean", "t.ocean"]
+					}
+				},
+				"rightwing4": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing"]
+					}
+				},
+				"rightwing5": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing"]
+					}
+				},
+				"biome_nether": {
+					"scale": {
+						"vector": ["t.nether", "t.nether", "t.nether"]
+					}
+				},
+				"rightwing6": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing"]
+					}
+				},
+				"rightwing7": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing"]
+					}
+				},
+				"rightwing8": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing"]
+					}
+				},
+				"rightwing11": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing"]
+					}
+				},
+				"rightwing14": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing3"]
+					}
+				},
+				"rightwing15": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing3"]
+					}
+				},
+				"rightwing16": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing3"]
+					}
+				},
+				"rightwing17": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing3"]
+					}
+				},
+				"rightwing18": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing3"]
+					}
+				},
+				"rightwing19": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing3"]
+					}
+				},
+				"rightwing20": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing3"]
+					}
+				},
+				"rightwing21": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing3"]
+					}
+				},
+				"rightwing24": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing2"]
+					}
+				},
+				"rightwing25": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing2"]
+					}
+				},
+				"rightwing26": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing2"]
+					}
+				},
+				"rightwing27": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing2"]
+					}
+				},
+				"rightwing28": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing2"]
+					}
+				},
+				"rightwing29": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing2"]
+					}
+				},
+				"rightwing30": {
+					"rotation": {
+						"vector": [0, 0, "t.rwing2"]
+					}
+				},
+				"rightwing31": {
+					"rotation": {
+						"vector": [0, 0, "-t.rwing2"]
+					}
+				},
+				"function": {
+					"scale": {
+						"vector": [
+							"t.none= !(lunar.check_for_desert() || lunar.check_for_ocean() || lunar.check_for_nether() || lunar.check_for_theend());t.desert = lunar.check_for_desert();t.ocean = lunar.check_for_ocean();t.nether = lunar.check_for_nether();t.end = lunar.check_for_theend();",
+							"t.none= !(lunar.check_for_desert() || lunar.check_for_ocean() || lunar.check_for_nether() || lunar.check_for_theend());t.desert = lunar.check_for_desert();t.ocean = lunar.check_for_ocean();t.nether = lunar.check_for_nether();t.end = lunar.check_for_theend();",
+							"t.none= !(lunar.check_for_desert() || lunar.check_for_ocean() || lunar.check_for_nether() || lunar.check_for_theend());t.desert = lunar.check_for_desert();t.ocean = lunar.check_for_ocean();t.nether = lunar.check_for_nether();t.end = lunar.check_for_theend();"
+						]
+					}
+				},
+				"biome_none2": {
+					"scale": {
+						"vector": ["t.none", "t.none", "t.none"]
+					}
+				},
+				"biome_desert2": {
+					"scale": {
+						"vector": ["t.desert", "t.desert", "t.desert"]
+					}
+				},
+				"biome_ocean2": {
+					"scale": {
+						"vector": ["t.ocean", "t.ocean", "t.ocean"]
+					}
+				},
+				"biome_nether2": {
+					"scale": {
+						"vector": ["t.nether", "t.nether", "t.nether"]
+					}
+				},
+				"biome_end2": {
+					"scale": {
+						"vector": ["t.end", "t.end", "t.end"]
+					}
+				},
+				"biome_none3": {
+					"scale": {
+						"vector": ["t.none", "t.none", "t.none"]
+					}
+				},
+				"biome_desert3": {
+					"scale": {
+						"vector": ["t.desert", "t.desert", "t.desert"]
+					}
+				},
+				"biome_ocean3": {
+					"scale": {
+						"vector": ["t.ocean", "t.ocean", "t.ocean"]
+					}
+				},
+				"biome_nether3": {
+					"scale": {
+						"vector": ["t.nether", "t.nether", "t.nether"]
+					}
+				},
+				"biome_end3": {
+					"scale": {
+						"vector": ["t.end", "t.end", "t.end"]
+					}
+				}
+			}
+		},
+		"flavor": {
+			"loop": true,
+			"animation_length": 60,
+			"bones": {
+				"butterfly_spin": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, -14, 0]
+						}
+					}
+				},
+				"butterfly_flavor": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -15, 0],
+							"easing": "easeOutSine"
+						},
+						"2.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,23 @@
+{
+   "type":"pet",
+   "attached_bone": "SHOULDER",
+   "model":"lunar:cosmetics/models/geckolib/pets/shoulder_parrot/parrot.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/pets/shoulder_parrot/parrot.webp",
+   "animation":"lunar:cosmetics/models/geckolib/pets/shoulder_parrot/parrot.anim.json",
+   "state_machine": {
+      "name": "single",
+      "transition_tick_length": 10,
+      "anim": "main"
+    },
+    "transformations": [{
+      "transformType": "translate",
+      "values": {
+        "gui": {
+          "x": -0.4,
+          "y": 0.375,
+          "z": 0.0
+        }
+      }
+    }
+  ]
+}

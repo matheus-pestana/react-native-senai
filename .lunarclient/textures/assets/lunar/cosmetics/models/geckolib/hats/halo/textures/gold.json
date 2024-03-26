@@ -1,0 +1,12 @@
+{
+   "type":"hat",
+   "attached_bone": "HEAD",
+   "model":"lunar:cosmetics/models/geckolib/hats/halo/model.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/hats/halo/textures/gold.webp",
+   "animation":"lunar:cosmetics/models/geckolib/hats/halo/model.animation.json",
+   "state_machine":{
+     "name": "single",
+     "transition_tick_length": 10,
+     "anim": "animation"
+   }
+}

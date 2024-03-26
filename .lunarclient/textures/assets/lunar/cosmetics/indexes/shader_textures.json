@@ -1,0 +1,8 @@
+{
+    "cosmetics/cloaks/testerplus_shader_rainbow.webp": {
+        "effect": "cosmetic_shaders/cloaks/chroma.json",
+        "effectCore": "cosmetic_shaders/cloaks/chroma_core.json",
+        "renderWidth": 176,
+        "renderHeight": 136
+    }
+}

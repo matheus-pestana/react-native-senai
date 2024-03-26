@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"main": {
+			"loop": true,
+			"bones": {
+				"gecko": {
+					"rotation": {
+						"vector": ["q.is_swimming*-90", 0, "q.is_in_water*math.clamp(q.local_x_velocity*3,-15,15)"]
+					},
+					"position": {
+						"vector": ["0+(query.is_in_water_smooth(0.2) * -2)", "0 + query.is_in_water_smooth(0.2) * (2 + math.cos(q.anim_time * 180) * 0.3 + (math.cos(q.anim_time*90)*2-q.local_y_velocity*0.2))", "q.is_swimming ? 4 : 0.75+query.is_in_water_smooth(0.2)*math.clamp(q.local_z_velocity*2,-8,8)"]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["(5-math.cos(35+q.anim_time*180)*7)+(q.is_in_water*-40)+(q.is_crouching* -35)", 0, 0]
+					}
+				},
+				"eye": {
+					"scale": {
+						"vector": [1, "t.wink_timing=-math.cos(q.anim_time*40);t.wink=math.clamp(1-math.min(math.cos(q.anim_time*400),0)*t.wink_timing,0,1);return q.is_crouching ? 0.4 : t.wink*(q.is_in_water?0.5:1);", 1]
+					}
+				},
+				"mouth": {
+					"rotation": {
+						"vector": ["(7+math.cos(q.anim_time*180)*3)+(q.is_in_water*-15)+(q.is_crouching*20)+(math.clamp(q.local_y_velocity*2,0,40))", 0, 0]
+					}
+				},
+				"tongue": {
+					"rotation": {
+						"vector": [-2.5, 40, 0]
+					},
+					"scale": {
+						"vector": [1, 1, "!q.is_in_water*(0.25+math.cos(q.anim_time*180)*0.03)"]
+					}
+				},
+				"BR_leg": {
+					"rotation": {
+						"vector": ["t.backleg_x=(17.5-t.body_x_pivot*1.5);t.animtime=q.anim_time*720;return t.backleg_x+(-10+q.is_in_water*(math.cos(t.animtime)*20));", 0, "t.backleg_z=12.5"]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": ["t.body_x_pivot=math.cos(q.anim_time*180)*2;return t.body_x_pivot;", "math.clamp(q.local_x_velocity*4,-20,20)", 0]
+					},
+					"position": {
+						"vector": [0, 0, -1.05]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": ["t.tail_x_rot=math.cos(65-q.anim_time*180)*11", "math.clamp(-q.local_x_velocity*4,-20,20)", 0]
+					}
+				},
+				"BL_leg": {
+					"rotation": {
+						"vector": ["t.backleg_x+(-10+q.is_in_water*(math.cos(35-t.animtime)*20));", 0, "-t.backleg_z"]
+					}
+				},
+				"FL_leg": {
+					"rotation": {
+						"vector": ["t.backleg_x+(-20+q.is_in_water*(math.cos(80-t.animtime)*20))", 0, "-t.frontleg_z"]
+					}
+				},
+				"FR_leg": {
+					"rotation": {
+						"vector": ["t.backleg_x+(-20+q.is_in_water*(math.cos(80-t.animtime)*20))", 0, "t.frontleg_z=10;return t.frontleg_z;"]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

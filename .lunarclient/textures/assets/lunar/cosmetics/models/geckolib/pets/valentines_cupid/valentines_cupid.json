@@ -1,0 +1,56 @@
+{
+	"type": "pet",
+	"attached_bone": "NONE",
+	"model": "lunar:cosmetics/models/geckolib/pets/valentines_cupid/valentines_cupid.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/valentines_cupid/valentines_cupid.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/valentines_cupid/valentines_cupid.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_elytra_flying && !q.is_swimming && !q.is_in_water",
+						"transition_easing": "easeInOutSine",
+						"weight": 0.5
+					},
+					{
+						"anim": "in_water_surface",
+						"plays_when": "(q.distance_from_surface<3) && q.is_in_water && !q.is_swimming",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "in_water_deep",
+						"plays_when": "(q.distance_from_surface>3) && q.is_in_water && !q.is_swimming",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "swimming",
+						"plays_when": "q.is_in_water && q.is_swimming",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "elytra_flight",
+						"plays_when": "q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.95,
+					"y": 0.125,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

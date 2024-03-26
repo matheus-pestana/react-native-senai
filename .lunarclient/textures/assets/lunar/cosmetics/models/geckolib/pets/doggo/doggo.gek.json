@@ -1,0 +1,40 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/doggo/doggo.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/doggo/doggo.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/doggo/doggo.anim.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "5",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!(q.is_in_water && q.distance_from_surface > 1)",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "in_water",
+						"plays_when": "(q.is_in_water && q.distance_from_surface > 1)",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.75,
+					"y": 0.3,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}

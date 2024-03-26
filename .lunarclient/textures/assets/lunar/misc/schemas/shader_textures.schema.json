@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/shaderTextures",
+  "definitions": {
+    "shaderTextures": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/definitions/shaderTexture"
+      }
+    },
+    "shaderTexture": {
+      "type": "object",
+      "properties": {
+        "effect": {
+          "type": "string"
+        },
+        "effectCore": {
+          "type": "string"
+        },
+        "renderWidth": {
+          "type": "integer"
+        },
+        "renderHeight": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,335 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/GeckolibDefinition",
+  "definitions": {
+    "GeckolibDefinition": {
+      "type": "object",
+      "description": "Defines all the properties for a geckolib cosmetic",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "description": "Determines what category this cosmetic falls under",
+          "type": "string",
+          "enum": [
+            "hat",
+            "pet"
+          ]
+        },
+        "model": {
+          "description": "The file path to the model json",
+          "type": "string",
+          "pattern": "[a-zA-Z0-9/._-]+.json"
+        },
+        "texture": {
+          "description": "The file path to the texture (png or webp)",
+          "type": "string",
+          "pattern": "([a-zA-Z0-9/._-]+.png)|([a-zA-Z0-9/._-]+.webp)"
+        },
+        "animation": {
+          "description": "The file path to the animation json",
+          "type": "string",
+          "pattern": "[a-zA-Z0-9/._-]+.json"
+        },
+        "state_machine": {
+          "description": "The state machine that controls when animations play",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/SimpleMovementStateMachine"
+            },
+            {
+              "$ref": "#/definitions/SingleAnimationStateMachine"
+            },
+            {
+              "$ref": "#/definitions/AttackingStateMachine"
+            }
+          ]
+        },
+        "transformations": {
+          "description": "An array of visual transformations to apply to the cosmetic depending on certain conditions",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              {
+                "type": "object",
+                "$ref": "#/definitions/transformation"
+              },
+              {
+                "type": "object",
+                "$ref": "#/definitions/conditionalTransformation"
+              }
+            ]
+          }
+        },
+        "attached_bone": {
+          "description": "Determines which bone the cosmetic will attach itself to",
+          "type": "string",
+          "default": "HEAD",
+          "enum": [
+            "SHOULDER",
+            "HEAD",
+            "LEFT_ARM",
+            "RIGHT_ARM",
+            "LEFT_LEG",
+            "RIGHT_LEG",
+            "NONE"
+          ]
+        },
+        "show_during_emote": {
+          "description": "Show this cosmetic while emoting",
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": [
+        "model",
+        "texture",
+        "type",
+        "state_machine"
+      ],
+      "title": "GeckolibDefinition"
+    },
+    "transformation": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "transformType": {
+          "type": "string",
+          "enum": [
+            "scale",
+            "rotate",
+            "translate"
+          ]
+        },
+        "values": {
+          "type": "object",
+          "$ref": "#/definitions/transformationValues"
+        }
+      },
+      "required": [
+        "transformType",
+        "values"
+      ]
+    },
+    "conditionalTransformation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "condition": {
+          "type": "string",
+          "enum": [
+            "none"
+          ]
+        },
+        "transformType": {
+          "type": "string",
+          "enum": [
+            "scale",
+            "rotate",
+            "translate"
+          ]
+        },
+        "values": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/transform"
+            },
+            {
+              "$ref": "#/definitions/transformationValues"
+            }
+          ]
+        }
+      },
+      "required": [
+        "values"
+      ]
+    },
+    "transformationValues": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "gui": {
+          "description": "This transformation type only applies in the GUI preview",
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "player": {
+          "description": "This transformation type only applies when rendered on the actual player",
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "helmet": {
+          "description": "This transformation type only applies when the player has a helmet equipped",
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        },
+        "skin_layer": {
+          "description": "This transformation type only applies when the player skin has a secondary skin layer on their head",
+          "type": "object",
+          "$ref": "#/definitions/transform"
+        }
+      }
+    },
+    "transform": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "z": {
+          "type": "number"
+        },
+        "angle": {
+          "description": "The angle to rotate if this is a rotation transform (in degrees)",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 360
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "Animation": {
+      "description": "The animation to play. This can either be a string of the animation name, or a complex animation builder, or an array of animation builders. If this is an array, the animations will play one after another sequentially.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/definitions/SingleAnimation"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SingleAnimation"
+          }
+        }
+      ]
+    },
+    "SingleAnimation": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "The name of the animation",
+          "type": "string"
+        },
+        "loop": {
+          "description": "Whether this animation should play on loop",
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "BaseStateMachine": {
+      "type": "object",
+      "properties": {
+        "transition_tick_length": {
+          "description": "How long it takes to transition between animations (in ticks). 1 tick = 0.05 seconds",
+          "type": "integer",
+          "minimum": 0,
+          "default": 10
+        }
+      }
+    },
+    "SimpleMovementStateMachine": {
+      "type": "object",
+      "description": "A state machine that plays a movement animation when an entity is moving, and otherwise plays an idle animation.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/BaseStateMachine"
+        }
+      ],
+      "properties": {
+        "name": {
+          "description": "The name of the state machine",
+          "type": "string",
+          "const": "simple_movement"
+        },
+        "idle_anim": {
+          "description": "The idle animation to play when the entity is not moving",
+          "$ref": "#/definitions/Animation"
+        },
+        "move_anim": {
+          "description": "The animation to play when the entity is moving",
+          "$ref": "#/definitions/Animation"
+        }
+      },
+      "required": [
+        "idle_anim",
+        "move_anim"
+      ]
+    },
+    "SingleAnimationStateMachine": {
+      "description": "A simple state machine that plays one animation on loop",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/BaseStateMachine"
+        }
+      ],
+      "properties": {
+        "name": {
+          "description": "The name of the state machine",
+          "type": "string",
+          "const": "single"
+        },
+        "anim": {
+          "description": "The animation to play on loop",
+          "$ref": "#/definitions/Animation"
+        }
+      },
+      "required": [
+        "name",
+        "anim"
+      ]
+    },
+    "AttackingStateMachine": {
+      "type": "object",
+      "description": "A state machine that plays an entering animation when the entity gets attacked or starts attacking. After the specified animation length, the animation plays the leaving attack animation, followed by the idle animation.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/BaseStateMachine"
+        }
+      ],
+      "properties": {
+        "name": {
+          "description": "The name of the state machine",
+          "type": "string",
+          "const": "attacking"
+        },
+        "idle_anim": {
+          "description": "The idle animation to play when the entity is not in combat",
+          "$ref": "#/definitions/Animation"
+        },
+        "entering_attack_anim": {
+          "description": "The animation builder to play when the entity is entering combat",
+          "$ref": "#/definitions/Animation"
+        },
+        "leaving_attack_anim": {
+          "description": "The animation builder to play when the entity is leaving combat",
+          "$ref": "#/definitions/Animation"
+        },
+        "attack_anim_length": {
+          "description": "The length of the attacking animation, in seconds",
+          "type": "number"
+        }
+      },
+      "required": [
+        "idle_anim",
+        "entering_attack_anim",
+        "leaving_attack_anim",
+        "attack_anim_length"
+      ]
+    }
+  }
+}

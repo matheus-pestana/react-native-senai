@@ -1,0 +1,23 @@
+{
+   "type":"pet",
+   "attached_bone": "SHOULDER",
+   "model":"lunar:cosmetics/models/geckolib/pets/shoulder_bee/shoulder_bee.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/pets/shoulder_bee/shoulder_bee.webp",
+   "animation":"lunar:cosmetics/models/geckolib/pets/shoulder_bee/shoulder_bee.anim.json",
+   "state_machine": {
+      "name": "single",
+      "transition_tick_length": 10,
+      "anim": "main"
+    },
+    "transformations": [{
+      "transformType": "translate",
+      "values": {
+        "gui": {
+          "x": -0.65,
+          "y": 0.25,
+          "z": 0.0
+        }
+      }
+    }
+  ]
+}

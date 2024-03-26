@@ -1,0 +1,43 @@
+{
+   "type":"backpack",
+   "attached_bone": "SHOULDER",
+   "model":"lunar:cosmetics/models/geckolib/backpacks/magestaff/model.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/backpacks/magestaff/textures/red.webp",
+   "animation":"lunar:cosmetics/models/geckolib/backpacks/magestaff/model.animation.json",
+   "state_machine":{
+     "name": "single",
+     "transition_tick_length": 10,
+     "anim": "animation"
+   },
+   "transformations": [{
+     "transformType": "translate",
+     "values": {
+       "gui": {
+         "x": 0.0,
+         "y": 1.4,
+         "z": -0.15
+       }
+     }
+   },
+   {
+     "transformType": "rotate",
+     "condition": "none",
+     "values": {
+       "angle": 180.0,
+       "x": 0.0,
+       "y": 1.0,
+       "z": 0.0
+     }
+   },
+   {
+     "transformType": "scale",
+     "values": {
+       "gui": {
+         "x": 0.65,
+         "y": 0.65,
+         "z": 0.65
+       }
+     }
+   }
+ ]
+ }

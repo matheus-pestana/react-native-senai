@@ -1,0 +1,50 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/wings/biome_wings/biome_wings.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/wings/biome_wings/crimson.webp",
+	"animation": "lunar:cosmetics/models/geckolib/wings/biome_wings/biome_wings.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_flying",
+						"transition_easing": "easeOutSine"
+					},
+					{
+						"anim": "flying",
+						"plays_when": "q.is_flying",
+						"transition_easing": "easeOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": 0.0,
+					"y": 1.0,
+					"z": -0.55
+				}
+			}
+		},
+		{
+			"transformType": "scale",
+			"values": {
+				"gui": {
+					"x": 0.9,
+					"y": 0.9,
+					"z": 0.9
+				}
+			}
+		}
+	]
+}

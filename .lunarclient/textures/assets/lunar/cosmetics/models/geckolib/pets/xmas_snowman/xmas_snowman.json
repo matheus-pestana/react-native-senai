@@ -1,0 +1,45 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/pets/xmas_snowman/xmas_snowman.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/pets/xmas_snowman/xmas_snowman.webp",
+	"animation": "lunar:cosmetics/models/geckolib/pets/xmas_snowman/xmas_snowman.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "10",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "!q.is_swimming && !q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "swimming",
+						"plays_when": "q.is_swimming && !q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					},
+					{
+						"anim": "elytra_flight",
+						"plays_when": "!q.is_swimming && q.is_elytra_flying",
+						"transition_easing": "easeInOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": -0.65,
+					"y": 0.4,
+					"z": -0.2
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "activeAccountLocalId": "020ae9144c634306bee34726d6bd4200",
+  "accounts": {
+    "020ae9144c634306bee34726d6bd4200": {
+      "accessToken": "eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQ1MDI3MTI4NzE1NCIsImFnZyI6IkFkdWx0Iiwic3ViIjoiYTQzNTk3NTgtZWZkNy00NTBiLTlkZjQtNzhlYzlhYTRlOGRjIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm9yZGVyc18yMDIyIl0sInBsYXRmb3JtIjoiVU5LTk9XTiIsInl1aWQiOiI1YzQ4YmZmMmRlMDdkYWI3NDkwNzBhYmNiOTE3ZTRmOSIsIm5iZiI6MTY4NzU2NTQwMSwiZXhwIjoxNjg3NjUxODAxLCJpYXQiOjE2ODc1NjU0MDF9.i0WnDeDqB-miwzAPykGVKkZhEmt9-YIrQGYN6-p7D2k",
+      "accessTokenExpiresAt": "2023-06-25T00:10:03.790977500Z",
+      "eligibleForMigration": false,
+      "hasMultipleProfiles": false,
+      "legacy": false,
+      "persistent": true,
+      "userProperites": [],
+      "localId": "020ae9144c634306bee34726d6bd4200",
+      "refreshToken": "M.C105_SN1.-CW1F7A2cgZalwd*IIjo0OTEFkgZfjH2dX7ZczQxRAKlt8dxzvLhylqK7Ll*of*G*NNeE6VtdJ7XkdF9gxICoUDnrH4kap5zK1ThTYPX4I6ptx4!H!qoHBYAHqjmhV5kzGKMlz1G5*OYx7tQqawtoaecVliiPhrZSwLwW2g5ZjrQ4zmnDbyJaCM65M9vOJDtM7quAdhinqVrF1sUNUM16VkuwiHIqdcS99lk66GC2h*Q9Vb3FGPdLJBuY*lMteu3xVhMsbiiPJmrtP0AQr0FeLID6ujukY*1Hn0ltKIMJaZIM",
+      "minecraftProfile": {
+        "id": "dda78674991c428facd1cfb43914fe1f",
+        "name": "zMathGamer_09"
+      },
+      "remoteId": "2535450271287154",
+      "type": "Xbox",
+      "username": "zMathGamer_09"
+    }
+  }
+}

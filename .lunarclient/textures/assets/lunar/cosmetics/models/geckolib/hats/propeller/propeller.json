@@ -1,0 +1,12 @@
+{
+   "type":"hat",
+   "attached_bone": "HEAD",
+   "model":"lunar:cosmetics/models/geckolib/hats/propeller/model.geo.json",
+   "texture":"lunar:cosmetics/models/geckolib/hats/propeller/texture.webp",
+   "animation":"lunar:cosmetics/models/geckolib/hats/propeller/model.animation.json", 
+   "state_machine":{
+     "name": "single",
+     "transition_tick_length": 10,
+     "anim": "spin"
+  }
+}

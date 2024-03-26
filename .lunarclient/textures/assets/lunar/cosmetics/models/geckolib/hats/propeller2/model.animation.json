@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"Propeller": {
+			"loop": true,
+			"animation_length": 1.36,
+			"bones": {
+				"Propeller": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 2, 0]
+						},
+						"1.36": {
+							"vector": [0, 360, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

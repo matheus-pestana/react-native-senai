@@ -1,0 +1,35 @@
+{
+	"type": "pet",
+	"attached_bone": "SHOULDER",
+	"model": "lunar:cosmetics/models/geckolib/wings/small_feather_wings/small_feather_wings.geo.json",
+	"texture": "lunar:cosmetics/models/geckolib/wings/small_feather_wings/textures/feather_pink.webp",
+	"animation": "lunar:cosmetics/models/geckolib/wings/simple_2d_wings.animation.json",
+	"state_machine": {
+		"name": "molang",
+		"controllers": [
+			{
+				"name": "main_controller",
+				"default_transition_ticks": "15",
+				"states": [
+					{
+						"anim": "main",
+						"plays_when": "1",
+						"transition_easing": "easeOutSine"
+					}
+				]
+			}
+		]
+	},
+	"transformations": [
+		{
+			"transformType": "translate",
+			"values": {
+				"gui": {
+					"x": 0.5,
+					"y": 0.5,
+					"z": 0.0
+				}
+			}
+		}
+	]
+}
